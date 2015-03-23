@@ -54,7 +54,7 @@ class SecurityModule extends AbstractModule implements HandlerDecoratingModule {
     @Singleton
     @Provides
     TwitterClient twitterClient() {
-        new TwitterClient('jnvxx2qjluMFdJN5dt4xRw', 'IPRGbYPFlEqfSHFdaNxQtOc755HnGVIGrqpOHWXmI')
+        new TwitterClient('hS8RxmnoSIKHnhUjjCQ1UpE5v', '0Sr1DMFPRwb6hVXHneEiqpBB4yHdP6zUrsarJLQf3MYl0AQPms')
     }
 
     private String getCallbackPath(Injector injector) {
